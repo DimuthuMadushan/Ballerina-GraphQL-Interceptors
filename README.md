@@ -4,7 +4,7 @@ A Ballerina GraphQL Example with Interceptors.
 This example includes a simple interceptor based GraphQL fields filtering method. This method can be used to filter out the fields based on `Request Header` values.
 
 ## Configurations
-> NOTE: This example runs only on Ballerina versions greater than `SL2022.2.0`.
+> NOTE: This example runs only on Ballerina versions greater than `2201.2.0 (Swan Lake Update 2)`.
 
 Example can be run using following command.
 ```shell
