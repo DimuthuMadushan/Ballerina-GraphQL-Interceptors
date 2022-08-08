@@ -1,0 +1,14 @@
+[package]
+org = "dimuthu"
+name = "Interceptors"
+version = "0.1.0"
+distribution = "2201.2.0-rc1.2"
+
+[[dependency]]
+org = "ballerina"
+name = "graphql"
+version = "1.4.0"
+repository = "local"
+
+[build-options]
+observabilityIncluded = true
