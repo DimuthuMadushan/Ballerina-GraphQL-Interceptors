@@ -61,7 +61,7 @@ public isolated service class Profile {
     }
 
     isolated resource function get address/homeTown() returns string? {
-        return "Main Street";
+        return "Deniyaya";
     }
 
     isolated resource function get address/currentCity() returns string {

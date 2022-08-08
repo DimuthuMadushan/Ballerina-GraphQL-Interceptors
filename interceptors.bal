@@ -12,7 +12,7 @@ readonly service class AccessGrant {
     }
 
     isolated function grantAccess(string scope, string fieldName) returns boolean {
-        string[] restrictedForFriends = ["day", "month", "homeTown", "street"];
+        string[] restrictedForFriends = ["day", "month", "street"];
         string[] restrictedForOther = ["day", "month", "year", "homeTown", "street", "mobile"];
         if scope is FRIEND && restrictedForFriends.indexOf(fieldName) is int {
             return false;
