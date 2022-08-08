@@ -1,0 +1,32 @@
+type Query {
+    profile: Profile!
+}
+
+type Profile {
+    name: String!
+    profilePic: String!
+    bio: String!
+    mobile: String
+    birthday: Date
+    address: Address
+    posts: Post!
+}
+
+type Address {
+    street: String
+    homeTown: String
+    currentCity: String!
+}
+
+type Date {
+    day: Int
+    month: String
+    year: Int
+}
+
+type Post {
+    owner: Profile!
+    likes: Int!
+    shares: Int!
+    date: Date
+}

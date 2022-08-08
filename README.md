@@ -51,6 +51,13 @@ type Date {
     month: String
     year: Int
 }
+
+type Post {
+    owner: Profile!
+    likes: Int!
+    shares: Int!
+    date: Date
+}
 ```
 
 ## Field Accessibility
